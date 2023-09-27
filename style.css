@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: darkblue;
+}
+.links{
+    display: inline;
+}
+.links a{
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    font-size: xx-large;
+    padding-left: 2px;
+    padding-right: 2px; 
+    border: 1px solid black;
+    opacity: .7;
+    transition: .4s;
+
+    
+}
+.links a:hover{
+    opacity: 1;
+    transition: .4s;
+}
+.rounded{
+    border-radius: 10px;
+}
+.skyblue{background-color: aquamarine;}
+.crimson{background-color: crimson; color: whitesmoke;}
+.gray{background-color: gray;}
+.blue{background-color: blue; color: white;}
